@@ -1,0 +1,1811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DSATRACKER</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="head">
+        <div class="heading">
+          <h1>DSA TRACKER 150</h1>
+          <h3><span id="progress">0</span> / 150</h3>
+          <hr />
+        </div>
+      </div>
+
+      <div class="search-div">
+        <div class="search">
+          <div class="stats">
+            <div class="stat" id="easy">
+              <h3>Easy</h3>
+              <h5>( <span id="eas">0</span> / 28)</h5>
+            </div>
+            <div class="stat" id="medium">
+              <h3>Medium</h3>
+              <h5>( <span id="med">0</span> /101)</h5>
+            </div>
+
+            <div class="stat" id="hard">
+              <h3>Hard</h3>
+              <h5>( <span id="har">0</span> / 21)</h5>
+            </div>
+          </div>
+          <div class="delete">
+            <img
+              src="https://www.pngplay.com/wp-content/uploads/7/Delete-Logo-Transparent-Background.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="content-div">
+        <div class="content" id="arrays">
+          <h4>Arrays & Hashing</h4>
+          <h3>(<span id="arrCount">0</span> / 9)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/contains-duplicate/description/"
+                >Contains Duplicate</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/valid-anagram/description/"
+                >Valid Anagram</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/two-sum/description/"
+                >Two Sum</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/group-anagrams/description/"
+                >Group Anagrams</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/top-k-frequent-elements/description/"
+                >Top K Frequent</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/encode-and-decode-strings/description/"
+                >Encode And Decode Strings</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/product-of-array-except-self/description/"
+                >Product Of Array Except Self</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem8">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/valid-sudoku/description/"
+                >Valid Sudoku</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem9">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/longest-consecutive-sequence/description/"
+                >Longest Consecutive Sequence</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+        </div>
+        <!-- Two-Pointers -->
+        <div class="content" id="twopointers">
+          <h4>Two Pointers</h4>
+          <h3>(<span id="arrCount">0</span> / 5)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/valid-palindrome/description/"
+                >Valid Palindrome</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/"
+                >Two Sum ii Input Array Is Sorted</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/3sum/description/">3sum</a>
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/container-with-most-water/description/"
+                >Container With Most Water</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/trapping-rain-water/description/"
+                >Trapping Rain Water</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+        </div>
+        <!-- Binary Search -->
+        <div class="content">
+          <h4>Binary Search</h4>
+          <h3>(<span id="arrCount">0</span> / 7)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/binary-search/description/"
+                >Binary Search</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/search-a-2d-matrix/description/"
+                >Search A 2d Matrix</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/koko-eating-bananas/description/"
+                >Koko-Eating Bananas</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/"
+                >Find Minimum In Rotated Sorted Array</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/search-in-rotated-sorted-array/description/"
+                >Search In Rotated Sorted Array</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/time-based-key-value-store/description/"
+                >Time Based Key Value Store</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/median-of-two-sorted-arrays/description/"
+                >Median Of Two Sorted Arrays</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+        </div>
+        <!-- Stack -->
+        <div class="content">
+          <h4>Stack</h4>
+          <h3>(<span id="arrCount">0</span> / 7)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a
+                href="https://leetcode.com/problems/valid-parentheses/description/"
+                >Valid Parentheses</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/min-stack/description/">
+                Min Stack</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/evaluate-reverse-polish-notation/description/"
+                >Evaluate Reverse Polish Notation</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/car-fleet/description/"
+                >Car Fleet</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/generate-parentheses/description/"
+                >Generate Parentheses</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/daily-temperatures/description/"
+                >Daily Temperatures</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/largest-rectangle-in-histogram/description/"
+                >Largest Rectangle In Histogram</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+        </div>
+        <!-- LinkedList -->
+        <div class="content">
+          <h4>Linked List</h4>
+          <h3>(<span id="arrCount">0</span> / 11)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a
+                href="https://leetcode.com/problems/reverse-linked-list/description/"
+                >Reverse Linked List</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/merge-two-sorted-lists/description/"
+              >
+                Merge Two Sorted Lists</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/reorder-list/description/"
+                >Reorder List</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/"
+                >Remove Nth Node From End Of List</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/copy-list-with-random-pointer/description/"
+                >Copy-List-With-Random-Pointer</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/add-two-numbers/"
+                >Add Two Numbers</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/linked-list-cycle/description/"
+                >Linked List Cycle</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+
+          <div class="arr-problem" id="problem8">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/find-the-duplicate-number/description/"
+                >Find The Duplicate Number</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem9">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/lru-cache/description/"
+                >Lru Cache</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem10">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/merge-k-sorted-lists/description/"
+                >Merge K Sorted Lists</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+          <div class="arr-problem" id="problem11">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/add-two-numbers/description/"
+                >Add Two Numbers</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+        </div>
+        <!-- Sliding Window -->
+        <div class="content">
+          <h4>Sliding Window</h4>
+          <h3>(<span id="arrCount">0</span> / 6)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a
+                href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/"
+                >Best Time To Buy And Sell Stock</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/longest-substring-without-repeating-characters/description/"
+              >
+                Longest Substring Without Repeating Characters</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/longest-repeating-character-replacement/description/"
+                >Longest Repeating Character Replacement</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/permutation-in-string/description/"
+                >Remove Nth Node From End Of List</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/minimum-window-substring/description/"
+                >Minimum Window Substring</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/sliding-window-maximum/description/"
+                >Sliding-Window-Maximum</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+        </div>
+        <!-- Trees -->
+        <div class="content">
+          <h4>Trees</h4>
+          <h3>(<span id="arrCount">0</span> / 15)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a
+                href="https://leetcode.com/problems/invert-binary-tree/description/"
+                >Invert Binary Tree</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/maximum-depth-of-binary-tree/description/"
+              >
+                Maximum Depth Of Binary Tree</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/diameter-of-binary-tree/description/"
+                >Diameter Of Binary Tree</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/balanced-binary-tree/description/"
+                >Balanced Binary Tree</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/same-tree/description/"
+                >Same Tree</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/subtree-of-another-tree/description/"
+                >Subtree Of Another Tree</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/"
+                >Lowest Common Ancestor Of A Binary <br />
+                Search Tree</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+
+          <div class="arr-problem" id="problem8">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/binary-tree-level-order-traversal/description/"
+                >Binary Tree Level Order Traversal</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem9">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/binary-tree-right-side-view/"
+                >Binary Tree Right Side View</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem10">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/"
+                >Count Good Nodes In Binary Tree</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem11">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/validate-binary-search-tree/description/"
+                >Validate Binary Search Tree</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem12">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+                >Kth Smallest Element In A Bst</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem13">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/"
+                >Construct Binary Tree From Preorder And <br />
+                Inorder Traversal</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem14">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+                >Binary Tree Maximum Path Sum</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+          <div class="arr-problem" id="problem14">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/"
+                >Serialize And Deserialize Binary Tree</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+        </div>
+        <!-- QUEUE / PRIORITY QUEUE -->
+
+        <div class="content">
+          <h4>Heap / Priority Queue</h4>
+          <h3>(<span id="arrCount">0</span> / 7)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a
+                href="https://leetcode.com/problems/kth-largest-element-in-a-stream/description/"
+                >Kth Largest Element In A Stream</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/last-stone-weight/description/"
+              >
+                Last Stone Weight</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/k-closest-points-to-origin/description/"
+                >K Closest Points To Origin</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/kth-largest-element-in-an-array/description/"
+                >Kth Largest Element In An Array</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/task-scheduler/description/"
+                >Task Scheduler</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/design-twitter/description/"
+                >Design Twitter</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+
+          <div class="arr-problem" id="problem8">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/find-median-from-data-stream/description/"
+                >Find Median From Data Stream</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+        </div>
+        <!-- BackTracking -->
+        <div class="content">
+          <h4>Backtracking</h4>
+          <h3>(<span id="arrCount">0</span> / 9)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a href="https://leetcode.com/problems/subsets/description/"
+                >Subsets</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/combination-sum/description/"
+              >
+                Combination Sum</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/permutations/description/"
+                >Permutations</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/subsets-ii/">Subsets ii</a>
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <!-- <div class="arr-problem" id="problem5">
+    <div class="tick">
+      <i class="ri-check-fill"></i>
+    </div>
+    <h5 id="problem">
+      <a href="https://leetcode.com/problems/task-scheduler/description/"
+        >Task Scheduler</a
+      >
+    </h5>
+    <h5 id="level">Medium</h5>
+  </div> -->
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/combination-sum-ii/"
+                >Combination Sum ii</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/word-search/description/"
+                >Word Search</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem9">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/palindrome-partitioning/description/"
+                >Palindrome Partitioning</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem10">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/"
+                >Letter Combinations Of A Phone Number</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem11">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/n-queens/description/"
+                >N Queens></a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+        </div>
+        <!-- Trie -->
+
+        <div class="content">
+          <h4>Trie</h4>
+          <h3>(<span id="arrCount">0</span> / 3)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a
+                href="https://leetcode.com/problems/implement-trie-prefix-tree/description/"
+                >Implement Trie Prefix Tree</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/word-search-ii/description/"
+              >
+                Word Search ii</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/design-add-and-search-words-data-structure/description/"
+                >Design Add And Search Words Data Structure</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+        </div>
+        <!-- Graphs -->
+        <div class="content">
+          <h4>Graphs</h4>
+          <h3>(<span id="arrCount">0</span> / 13)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a
+                href="https://leetcode.com/problems/number-of-islands/description/"
+                >Number Of Islands</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/max-area-of-island/description/"
+                >Max Area Of Island
+              </a>
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/clone-graph/description/"
+                >Clone Graph</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/walls-and-gates/description/"
+                >Walls And Gates</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/rotting-oranges/description/"
+                >Rotting Oranges</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/pacific-atlantic-water-flow/description/"
+                >Pacific Atlantic Water Flow</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/surrounded-regions/description/"
+                >surrounded-regions</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem8">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/course-schedule/description/"
+                >course-schedule</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem9">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/course-schedule-ii/description/"
+                >Course Schedule ii</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem10">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/graph-valid-tree/description/"
+                >Graph Valid Tree</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem11">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/"
+                >Number Of Connected Components <br />
+                In An Undirected Graph
+              </a>
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem12">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/redundant-connection/description/"
+                >Redundant Connection</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem13">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/word-ladder/description/"
+                >Word Ladder</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+        </div>
+        <!-- advanced graphs -->
+
+        <div class="content">
+          <h4>Advanced Graphs</h4>
+          <h3>(<span id="arrCount">0</span> / 7)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a href="https://leetcode.com/problems/reconstruct-itinerary/"
+                >Reconstruct Itinerary</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/min-cost-to-connect-all-points/description/"
+                >Min Cost To Connect All Points
+              </a>
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/network-delay-time/description/"
+                >Network Delay Time</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/swim-in-rising-water/description/"
+                >Swim In Rising Water</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/rotting-oranges/description/"
+                >Rotting Oranges</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/alien-dictionary/description/"
+                >Alien Dictionary</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://neetcode.io/problems/cheapest-flight-path"
+                >Cheapest Flight Path</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+        </div>
+        <!-- 1-D Dynamming Programming -->
+
+        <div class="content">
+          <h4>1-D Dynamic Programming</h4>
+          <h3>(<span id="arrCount">0</span> / 12)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a
+                href="https://leetcode.com/problems/climbing-stairs/description/"
+                >Climbing Stairs</a
+              >
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/min-cost-climbing-stairs/description/"
+                >Min Cost Climbing Stairs
+              </a>
+            </h5>
+            <h5 id="level">Easy</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/house-robber/description/"
+                >House Robber</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/house-robber-ii/description/"
+                >House Robber ii</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/longest-palindromic-substring/description/"
+                >Longest Palindromic Substring</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/palindromic-substrings/description/"
+                >Palindromic Substrings</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/decode-ways/description/"
+                >Decode Ways</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem8">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/coin-change/description/"
+                >Coin Change</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem9">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/course-schedule-ii/description/"
+                >Course Schedule ii</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem10">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/maximum-product-subarray/description/"
+                >Maximum Product Subarray</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem11">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/word-break/description/"
+                >Word Break</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem12">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/longest-increasing-subsequence/description/"
+                >Longest Increasing Subsequence</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem13">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/partition-equal-subset-sum/description/"
+                >Partition Equal Subset Sum</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+        </div>
+        <!-- 2D Dynamic Programming -->
+
+        <div class="content">
+          <h4>2-D Dynamic Programming</h4>
+          <h3>(<span id="arrCount">0</span> / 11)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a href="https://leetcode.com/problems/unique-paths/description/"
+                >Unique Paths</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/longest-common-subsequence/description/"
+                >Longest Common Subsequence
+              </a>
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/"
+                >Best Time To Buy And Sell Stock <br />
+                With Cooldown</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/coin-change-ii/description/"
+                >Coin Change ii</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/target-sum/description/"
+                >Target Sum</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/interleaving-string/description/"
+                >Interleaving String</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/"
+                >Longest Increasing Path In A Matrix</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+          <div class="arr-problem" id="problem8">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/distinct-subsequences/description/"
+                >Distinct Subsequences</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+          <div class="arr-problem" id="problem9">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/edit-distance/description/"
+                >Edit Distance</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+
+          <div class="arr-problem" id="problem11">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/burst-balloons/description/"
+                >Burst Balloons</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+          <div class="arr-problem" id="problem12">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/regular-expression-matching/description/"
+                >Regular Expression Matching</a
+              >
+            </h5>
+            <h5 id="level">Hard</h5>
+          </div>
+        </div>
+        <!-- Grredy -->
+
+        <div class="content">
+          <h4>Greedy</h4>
+          <h3>(<span id="arrCount">0</span> / 8)</h3>
+        </div>
+        <div class="content1">
+          <div class="status">
+            <h5>status</h5>
+            <h5>problem</h5>
+            <h5>difficulty</h5>
+          </div>
+          <div class="arr-problem" id="problem1">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem1">
+              <a
+                href="https://leetcode.com/problems/maximum-subarray/description/"
+                >Maximum Subarray</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem2">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/jump-game/description/"
+                >Jump-Game
+              </a>
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem3">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/jump-game-ii/description/"
+                >Jump Game ii</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem4">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a href="https://leetcode.com/problems/gas-station/"
+                >Gas Station</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem5">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/hand-of-straights/description/"
+                >Hand Of Straights</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem6">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/merge-triplets-to-form-target-triplet/description/"
+                >Merge Triplets To Form Target Triplet</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+
+          <div class="arr-problem" id="problem7">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/partition-labels/description/"
+                >Partition Labels</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+          <div class="arr-problem" id="problem8">
+            <div class="tick">
+              <i class="ri-check-fill"></i>
+            </div>
+            <h5 id="problem">
+              <a
+                href="https://leetcode.com/problems/valid-parenthesis-string/description/"
+                >Valid Parenthesis String</a
+              >
+            </h5>
+            <h5 id="level">Medium</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer">
+        <div class="footer-content"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
